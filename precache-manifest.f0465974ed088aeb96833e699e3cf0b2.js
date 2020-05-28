@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cacf51238468fe8d4aadd52a50f1ee3",
+    "revision": "b349feef1cc87ec062f93115936dbd2e",
     "url": "/GooglePageByGoremykin/index.html"
   },
   {
-    "revision": "01949f2b5aaf03e95803",
+    "revision": "eba42e9138c9abeb0363",
     "url": "/GooglePageByGoremykin/static/css/main.163dc57b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GooglePageByGoremykin/static/js/2.2097a507.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "01949f2b5aaf03e95803",
-    "url": "/GooglePageByGoremykin/static/js/main.fe1591a4.chunk.js"
+    "revision": "eba42e9138c9abeb0363",
+    "url": "/GooglePageByGoremykin/static/js/main.f0219eae.chunk.js"
   },
   {
     "revision": "0eb24cf0c31e5a08678a",

@@ -1,0 +1,27 @@
+{
+  "translation": {
+    "mailLink": "Почта",
+    "imagesLink": "Картинки",
+    "apps": "Приложения Google",
+    "account": "Аккаунт Google",
+    "logo": "Логотип Google",
+    "keyboard": "Экранная клавиатура",
+    "searchButton": "Поиск в Google",
+    "luckyButton": "Мне повезёт!",
+    "languageSelection": "Сервисы Google доступны на разных языках:",
+    "country": "Беларусь",
+    "advertising": "Реклама",
+    "business": "Для бизнеса",
+    "about": "Всё о Google",
+    "howSearchWorks": "Как работает Google поиск",
+    "privacy": "Конфиденциальность",
+    "terms": "Условия",
+    "settings": "Настройки",
+    "searchSettings": "Настройка поиска",
+    "advancedSearch": "Расширенный поиск",
+    "yourData": "Ваши данные в поиске",
+    "history": "История",
+    "searchHelp": "Поиск в справке",
+    "sendFeedback": "Отправить отзыв"
+  }
+}

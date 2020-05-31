@@ -1,0 +1,271 @@
+html, body{
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+a, span{
+  text-decoration: none;
+  outline: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+}
+
+.appWrapper{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+.header{
+  grid-column: 1 / -1;
+  font-size: 13px;
+
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 0 20px;
+
+    li{
+      padding-right: 15px;
+
+      a, span{
+        color: rgba(0, 0, 0, 0.87);
+
+        .avatar{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+
+      .googleApps{
+        background-image: url("./images/googleApps.png");
+        background-size: 528px 68px;
+        background-position: -132px -38px;
+        opacity: .55;
+        display: inline-block;
+        outline: none;
+        vertical-align: middle;
+        border-radius: 2px;
+        box-sizing: border-box;
+        height: 30px;
+        width: 30px;
+        color: #000;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.main{
+  grid-column: 1 / -1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+  main{
+    text-align: center;
+
+    .logo{
+      padding-bottom: 25px;
+
+      img{
+        width: 272px;
+        height: 92px;
+      }
+    }
+
+    .languages{
+      font-size: 13px;
+      color: #222;
+      line-height: 28px;
+      padding-top: 20px;
+
+      span{
+        color: #1a0dab;
+        padding-left: 3px;
+        cursor: pointer;
+
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.searchButtons{
+  padding-top: 18px;
+
+  .btn{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover{
+      box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+      background-image: linear-gradient(#f8f8f8,#f1f1f1);
+      background-color: #f8f8f8;
+      border: 1px solid #c6c6c6;
+      color: #222;
+    }
+
+    &:focus{
+      border: 1px solid #4d90fe;
+      outline: none;
+
+    }
+
+    &::-moz-focus-inner{
+      border: none;
+    }
+  }
+}
+
+.searchString{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  width: 582px;
+  justify-content: center;
+  align-items: center;
+
+  &:hover{
+    border-color:rgba(223,225,229,0);
+    box-shadow:0 1px 6px 0 rgba(32,33,36,0.28)
+  }
+
+  .searchInput{
+    width: 487px;
+    height: 34px;
+    border: none;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    outline: none;
+  }
+
+  .screenKeyboard{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .magnifier{
+    display: flex;
+    align-items: center;
+    fill: #9AA0A6;
+    padding-right: 15px;
+  }
+}
+
+.footer{
+  display: grid;
+  grid-column: 1 / -1;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  align-items: center;
+
+  .country{
+    padding-left: 27px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .footerMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #e4e4e4;
+
+    ul li a, span{
+      color: rgba(0, 0, 0, 0.54);
+    }
+
+    .leftFooterMenu{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding-left: 0;
+      line-height: 40px;
+      margin: 0;
+
+      li{
+        padding-left: 27px;
+
+        a{
+          display: inline-block;
+        }
+      }
+
+      .howGoogleSearchWorks{
+        width: 200px
+      }
+    }
+
+    .rightFooterMenu{
+      display: flex;
+      justify-content: flex-end;
+      line-height: 40px;
+      margin: 0;
+
+      li{
+        padding-right: 27px;
+
+        a, span{
+          display: inline-block;
+        }
+      }
+    }
+
+    .settings{
+      display: none;
+      background: #fff;
+      border: 1px solid #999;
+      box-shadow: 0 2px 4px rgba(0,0,0,.2);
+      text-align: left;
+      position: absolute;
+      white-space: nowrap;
+      line-height: 40px;
+      bottom: 30px;
+      right: 20px;
+      line-height: 40px;
+
+      ul li span:hover{
+        text-decoration: underline;
+      }
+    }
+
+    .settingsButton:focus .settings{
+      display: block;
+    }
+
+    .settingsButton:hover{
+      cursor: pointer;
+    }
+  }
+}

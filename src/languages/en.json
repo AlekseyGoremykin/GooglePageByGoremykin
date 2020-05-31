@@ -1,0 +1,27 @@
+{
+    "translation": {
+      "mailLink": "Gmail",
+      "imagesLink": "Images",
+      "apps": "Google apps",
+      "account": "Google Account",
+      "logo": "Google logo",
+      "keyboard": "Screen keyboard",
+      "searchButton": "Google search",
+      "luckyButton": "I'm Feeling Lucky!",
+      "languageSelection": "Google offered in:",
+      "country": "Belarus",
+      "advertising": "Advertising",
+      "business": "Business",
+      "about": "About",
+      "howSearchWorks": "How Search works",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "settings": "Settings",
+      "searchSettings": "Search settings",
+      "advancedSearch": "Advanced search",
+      "yourData": "Your data in search",
+      "history": "History",
+      "searchHelp": "Search help",
+      "sendFeedback": "Send feedback"
+    }
+}

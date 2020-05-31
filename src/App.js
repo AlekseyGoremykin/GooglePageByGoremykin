@@ -17,7 +17,7 @@ function App() {
         i18n.changeLanguage(lang);
     }
 
-    const generateUrl = () => {
+    const search = () => {
         let searchTerm = searchInput.current.value
         searchTerm = searchTerm.split(' ').filter(word => word).map(word => encodeURI(word)).join('+');
 
@@ -67,7 +67,7 @@ function App() {
                             </div>
                         </div>
                         <div className="searchButtons">
-                            <input type="button" className="btn" onClick={ generateUrl } value={t("searchButton")}/>
+                            <input type="button" className="btn" onClick={ search } value={t("searchButton")}/>
                             <input type="button" className="btn" value={t("luckyButton")}/>
                         </div>
                     </div>
